@@ -7,6 +7,7 @@ public class ATM_Machine_Simulation {
 
         int i = 0;
         String cardnumber = "";
+        // Giving 3 chances to the user in case they type incorrect card number.
         for (i = 0; i < 3; i++) {
             System.out.print("Enter your 16 digit Debit / ATM Card number: ");
 
@@ -27,6 +28,7 @@ public class ATM_Machine_Simulation {
         }
 
         int j = 0;
+        // Giving 3 chances to the user in case they type incorrect PIN.
         for (j = 0; j < 3; j++) {
             System.out.print("Enter your PIN: ");
             int PIN = sc.nextInt();
